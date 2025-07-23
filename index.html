@@ -1,32 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Bingo Web App</title>
-  <link rel="stylesheet" href="/css/style.css" />
-</head>
-<body>
-  <div class="container">
-    <!-- Tabs -->
-    <div class="tab-container">
-      <button data-tab="current">Current Bingo</button>
-      <button data-tab="next">Next Bingo</button>
-      <button data-tab="leaderboards">Leaderboards</button>
-    </div>
-    <!-- Tab Contents -->
-    <div id="current" class="tab-content">
-      <h2>Current Bingo</h2>
-      <p>Where the curent bingo will be displayed</p>
-    </div>
-    <div id="next" class="tab-content" style="display:none;">
-      <h2>Next Bingo</h2>
-      <p>An edit box will display here for people to send prompts for the next person's bingo</p>
-    </div>
-    <div id="leaderboards" class="tab-content" style="display:none;">
-      <h2>Leaderboards</h2>
-      <p>Leaderboars will display of how everyone is doing</p>
-    </div>
-  </div>
-  <script src="scripts/tabs.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/png" href="src/assets/bingo-icon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bingo</title>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
 </html>
