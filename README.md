@@ -46,7 +46,7 @@ To start working on this project you will need to clone the project itself first
 git clone https://github.com/BrokeCoder-eng/Bingo-App
 ```
 
-Now you should have all of the files nessecary to work on this project.
+Now you should have all of the files necessary to work on this project.
 
 ## Step 3: Download VS Code
 
