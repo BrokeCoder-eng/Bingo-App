@@ -1,0 +1,30 @@
+.bingo-card {
+	margin: 2rem auto;
+	border-collapse: collapse;
+	width: auto;
+}
+
+.bingo-card th {
+	font-size: 1.5rem;
+	padding: 1rem;
+	text-align: center;
+	background-color: #00ccff;
+	border: 2px solid #ccc;
+}
+
+.bingo-card td {
+	border: 2px solid #ccc;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 0.85rem;
+	font-weight: bold;
+	cursor: pointer;
+	user-select: none;
+	transition: background-color 0.3s ease;
+}
+
+.bingo-card td:hover {
+	background-color: #5c5c5c;
+}
