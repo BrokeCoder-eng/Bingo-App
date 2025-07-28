@@ -8,7 +8,7 @@
 	font-size: 1.5rem;
 	padding: 1rem;
 	text-align: center;
-	background-color: #00ccff;
+	background-color: #00ccffd2;
 	border: 2px solid #ccc;
 }
 
@@ -27,4 +27,23 @@
 
 .bingo-card td:hover {
 	background-color: #5c5c5c;
+}
+
+.bingo-card td.clicked {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.bingo-popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #242424;
+	border: 2px solid #ffffff;
+	padding: 30px 50px;
+	border-radius: 10px;
+	font-size: 28px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+	text-align: center;
 }

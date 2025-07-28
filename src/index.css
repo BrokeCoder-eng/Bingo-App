@@ -19,6 +19,21 @@ p {
 	line-height: 1.5;
 }
 
+button {
+	width: 300px;
+	height: 40px;
+	background-color: #5c5c5c;
+	border-color: transparent;
+	border-style: groove;
+	border-radius: 9999px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #00ccffd2;
+}
+
 .tab-content {
 	display: flex;
 	flex-direction: column;
